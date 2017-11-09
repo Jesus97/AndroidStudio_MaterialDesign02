@@ -13,7 +13,7 @@ public class Material02 extends AppCompatActivity {
 
     public FloatingActionButton fab;
     public Interpolator interpolador;
-    public boolean tocado;
+    public boolean tocado = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
